@@ -1,0 +1,62 @@
+site_name: Portfolio.exe | Md Farhan Tanvir, MMA
+site_url: https://mydomain.org/mysite
+
+theme:
+  icon:
+    annotation: material/chevron-right-circle
+  name: material
+  font:
+    text: Montserrat
+    code: Red Hat Mono
+  logo: assets/sitelogo.gif
+  favicon: assets/sitelogo.gif
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: red
+      accent: deep purple
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: red
+      accent: deep orange
+
+extra_javascript:
+  - js/toggle-label.js
+
+extra_css:
+  - css/toggle-label.css
+  - css/custom.css
+
+
+  
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mdfarhantanvir
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mdfarhantanvir/
+
+copyright: |
+  © 2025 Md Farhan Tanvir. Built with ❤️
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+     
