@@ -1,0 +1,16 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #fa1443; /* Red header */
+  --md-accent-fg-color: #ff7043;  /* Orange accent */
+  --md-default-bg-color: #fafafa; /* Background */
+  --md-typeset-color: #212121;    /* Main text */
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #fa1443; /* Red header */
+  --md-accent-fg-color: #ff8a65;  /* Accent orange */
+  --md-default-bg-color: #121212; /* Background */
+  --md-typeset-color: #eeeeee;    /* Light text */
+}
+--md-footer-bg-color
+--md-header-bg-color
+--md-code-bg-color
+--md-shadow-z1
